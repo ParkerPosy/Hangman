@@ -9,13 +9,7 @@ import { showNotification as show } from './helpers/helper'
 
 import './App.css'
 
-const words = [
-  'application',
-  'programming',
-  'interface',
-  'wizard',
-  'pussylicker', // credits go to Anakin Major
-]
+const words = ['ball', 'penguin', 'lynx', 'Parker', 'lemming', 'hangman']
 
 let selectedWord = words[Math.floor(Math.random() * words.length)]
 
